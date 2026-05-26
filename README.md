@@ -1,4 +1,4 @@
-# yolo-object-detection-pipeline
+# YOLO Training and Detection Pipeline
 This project implements an end-to-end YOLOv8 object detection pipeline. It demonstrates the complete workflow of loading a pretrained model, training it on a sample dataset, saving optimized weights, and performing inference on both images and real-time webcam input.
 
 The pipeline uses transfer learning by initializing the model with pretrained weights and refining them through training on a small dataset. During training, the model learns to predict bounding boxes, objectness scores, and class probabilities by minimizing a composite loss function. The best-performing model weights are saved and later used for inference.
